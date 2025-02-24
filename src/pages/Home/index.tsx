@@ -12,14 +12,14 @@ const Home = () => {
       <Banner />
       <ProductList
         games={onSaleGames}
-        title="Promotions"
+        title="Pomoções"
         background="grey"
         id="on-sale"
         isLoading={isLoadingSale}
       />
       <ProductList
         games={soonGames}
-        title="Coming Soon"
+        title="Em Breve"
         background="black"
         id="coming-soon"
         isLoading={isLoadingSoon}
